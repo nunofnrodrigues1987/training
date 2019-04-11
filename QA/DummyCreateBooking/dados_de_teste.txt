@@ -1,4 +1,4 @@
-username,password,expectedResult
-nuno,tap,mensagem de sucesso
-teresa,tap2,mensagem de sucesso
-marcio,tap3,Olá Marcio
+TestCaseName,username,password,expectedResult
+Caso de test 1,nuno,tap,mensagem de sucesso
+Caso de test 2,teresa,tap2,mensagem de sucesso
+Caso de test 3,marcio,tap3,Olá Marcio

@@ -54,10 +54,10 @@
           <boolProp name="recycle">false</boolProp>
           <stringProp name="shareMode">shareMode.group</stringProp>
           <boolProp name="stopThread">true</boolProp>
-          <stringProp name="variableNames">username,password,expectedResult</stringProp>
+          <stringProp name="variableNames">testCaseName,username,password,expectedResult</stringProp>
         </CSVDataSet>
         <hashTree/>
-        <kg.apc.jmeter.samplers.DummySampler guiclass="kg.apc.jmeter.samplers.DummySamplerGui" testclass="kg.apc.jmeter.samplers.DummySampler" testname="Request Dummy CreateBooking" enabled="true">
+        <kg.apc.jmeter.samplers.DummySampler guiclass="kg.apc.jmeter.samplers.DummySamplerGui" testclass="kg.apc.jmeter.samplers.DummySampler" testname="Request Dummy CreateBooking (TC: ${testCaseName})" enabled="true">
           <boolProp name="WAITING">true</boolProp>
           <boolProp name="SUCCESFULL">true</boolProp>
           <stringProp name="RESPONSE_CODE">200</stringProp>
